@@ -1,0 +1,110 @@
+/* === Gentleman-at-Work Website === */
+
+/* === FILE: index.html (Homepage) === */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentleman-at-Work | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gentleman-at-Work</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="invoice.html">Payment</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h2>Luxury Home Cleaning & Butler Services</h2>
+        <p>Your home, our priority.</p>
+        <a href="services.html" class="btn">View Services</a>
+    </section>
+    <footer>
+        <p>&copy; 2025 Gentleman-at-Work. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+/* === FILE: services.html === */
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Gentleman-at-Work</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+    </header>
+    <section>
+        <ul>
+            <li>Deep Cleaning</li>
+            <li>Regular Home Cleaning</li>
+            <li>Office Cleaning</li>
+            <li>Move-in/Move-out Cleaning</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2025 Gentleman-at-Work.</p>
+    </footer>
+</body>
+</html>
+
+/* === FILE: styles.css === */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* === FILE: script.js === */
+
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Website loaded successfully");
+});
